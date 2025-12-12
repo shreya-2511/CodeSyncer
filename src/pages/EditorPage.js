@@ -108,6 +108,7 @@ const EditorPage = () => {
                             <Client
                                 key={client.socketId}
                                 username={client.username}
+                                // color={client.color}
                             />
                         ))}
                     </div>
